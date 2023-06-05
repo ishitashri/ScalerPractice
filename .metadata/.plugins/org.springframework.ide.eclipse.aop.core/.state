@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="CitizenService"/>
+<aop-project name="SpringBoot-first-rest-app-with-jpa"/>
+<aop-project name="SpringBoot-Rest-Service-For-Notes"/>
+<aop-project name="SpringBoot-first-app"/>
+<aop-project name="VaccinationCenter"/>
+<aop-project name="EurekaServer"/>
+<aop-project name="API_Gateway"/>
+</aop-reference-model>

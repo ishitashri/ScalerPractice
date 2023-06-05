@@ -1,0 +1,28 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class OfcCode {
+
+	public static void main(String[] args) {
+		List<Long> list = new ArrayList<Long>();
+		list.add(448l);
+		list.add(449l);
+		list.add(449l);
+		list.add(450l);
+		list.add(470l);
+		list.add(480l);
+		list.add(490l);
+
+		long seqNumber = 448;
+
+		List<Long> newList = new ArrayList<Long>(list.size());
+
+		for (int i = 0; i < list.size(); i++) {
+			if (list.get(i) == seqNumber) {
+				
+				newList = (list.get(i)) + 1;
+			}
+		}
+	}
+
+}

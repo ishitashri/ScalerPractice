@@ -1,0 +1,36 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class OfcCode {
+
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(10);
+		list.add(10);
+		list.add(11);
+		list.add(12);
+		list.add(14);
+		list.add(15);
+
+		for (int i = 0; i < list.size(); i++) {
+			System.out.print(list.get(i) + " ");
+		}
+		int a = list.get(0);
+		
+		List<Integer> updatedList = new ArrayList<Integer>();
+		updatedList.add(list.set(0, list.get(0) + 1));
+		for(int i = 1; i < list.size(); i++) {
+			if(list.get(i) == a) {
+				updatedList.add(list.get(i) + 1);
+			}else {
+				a = list.get(i);
+			}
+		}
+		
+		
+		for (int i = 0; i < list.size(); i++) {
+			System.out.print(list.get(i) + " ");
+		}
+
+	}
+}

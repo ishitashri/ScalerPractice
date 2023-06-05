@@ -1,0 +1,23 @@
+package com.practise;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		// Enter the number
+		int number = scan.nextInt();
+		if (number >= 2) {
+			int powerOf2 = 1;
+			while (number >= Math.pow(2, (double) powerOf2)) {
+
+				powerOf2++;
+			}
+
+		}
+
+		System.out.println();
+	}
+}

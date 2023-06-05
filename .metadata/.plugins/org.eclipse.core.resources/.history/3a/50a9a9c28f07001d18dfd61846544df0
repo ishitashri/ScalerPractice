@@ -1,0 +1,25 @@
+package com.practise;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+public class ExceptionProg {
+
+	// Enter a string in the input console
+	BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
+
+	try
+	{
+		String inData;
+		inData = stdin.readLine();
+	}catch(
+	Exception e)
+	{
+		System.out.println(e);
+	}
+
+	System.out.println("You wrote: "+inData);
+
+}
+
+}

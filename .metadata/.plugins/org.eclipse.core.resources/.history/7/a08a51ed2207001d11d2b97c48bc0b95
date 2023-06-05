@@ -1,0 +1,22 @@
+package com.practise;
+
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		// Enter number 1 in the Input Console
+		int num1 = scan.nextInt();
+		// Enter number 2 in the Input Console
+		int num2 = scan.nextInt();
+
+		int hcf;
+		// Write logic
+
+		System.out.print(hcf);
+		scan.close();
+
+	}
+}

@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class OfcCode {
+
+	public static void main(String[] args) {
+		List list = new ArrayList();
+		list.add(448);
+		list.add(449);
+		list.add(449);
+		list.add(450);
+		list.add(470);
+		list.add(480);
+		list.add(490);
+
+		int seqNumber = 448;
+
+		for (int i = 0; i < list.size(); i++) {
+
+		}
+	}
+
+}
